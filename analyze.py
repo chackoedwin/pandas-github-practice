@@ -8,6 +8,7 @@ data = {
 }
 
 df = pd.DataFrame(data)
+df['passed'] = df['score'] >= 80
 
 print("Dataset:")
 print(df)
